@@ -33,11 +33,16 @@ circles.push(circle);
         }
 
         // TODO 3 : Call the drawCircle() function
+        
         drawCircle();
         drawCircle();
-         drawCircle();
-         drawCircle();
-         drawCircle();
+        drawCircle();
+        drawCircle();
+        drawCircle();
+
+
+
+
 
 
 
@@ -62,7 +67,7 @@ circles.push(circle);
                physikz.uppdatePosition(circles[2]);
                physikz.updatePosition(circles[3]);
                physikz.updatePosition(circles[4]);
-            
+        }
             // TODO 5 : Call game.checkCirclePosition() on your circles
               
             game.checkCirclePosition(circles[0]);
@@ -70,11 +75,11 @@ circles.push(circle);
               game.checkCirclePosition(circles[2]);
               game.checkCirclePosition(circles[3]);
               game.checkCirclePosition(circles[4]);
-
+        
             // TODO 8 / TODO 9 : Iterate over the array
            
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
